@@ -144,59 +144,6 @@
 	</extension>
 </addon>
 
-<addon id="script.module.streamlink.base" name="Streamlink Library" version="2018.10.31" provider-name="Streamlink Devs, Twilight0">
-  <requires>
-    <import addon="xbmc.python" version="2.24.0"/>
-    <import addon="script.module.requests" version="2.12.4"/>
-    <import addon="script.module.futures" version="2.2.0"/>
-    <import addon="script.module.streamlink.crypto" version="1.4.0"/>
-  </requires>
-  <extension point="xbmc.python.module" library="resources/lib/"/>
-  <extension point="xbmc.addon.metadata">
-    <summary>Streamlink Library</summary>
-    <description>Streamlink Library for Kodi</description>
-    <platform>all</platform>
-    <license>Simplified BSD</license>
-    <source>https://github.com/Twilight0/script.module.streamlink.base/</source>
-    <language>en</language>
-    <!--<assets>-->
-      <!--<icon>resources/icon.png</icon>-->
-    <!--</assets>-->
-    <news>+ 2018.10.31
-- Rebase to latest upstream commit eab005175d4b76dde3d1becacd718b646384a15e</news>
-  </extension>
-</addon>
-
-<addon id="script.module.streamlink.crypto" name="streamlink.crypto" version="1.5.0" provider-name="Streamlink.crypto">
-  <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary>Pure Python implementation of the cryptographic libraries required by Streamlink</summary>
-    <source>https://github.com/Twilight0/script.module.streamlink.crypto</source>
-    <platform>all</platform>
-    <license>MIT</license>
-  </extension>
-</addon>
-
-<addon id="script.module.streamlink.plugins" name="Streamlink Plugins" version="1.0.3" provider-name="Twilight0">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests" version="2.12.4"/>
-  </requires>
-  <extension point="xbmc.service"/>
-  <extension point="xbmc.addon.metadata">
-    <summary>Streamlink Plugins</summary>
-    <description>Copy your custom streamlink plugins in this Kodi plugin.</description>
-    <platform>all</platform>
-    <license>GNU GPL, version 2</license>
-    <source>https://github.com/Twilight0/script.module.streamlink.plugins</source>
-    <!--<website></website>-->
-    <!--<language></language>-->
-  </extension>
-</addon>
-
 <addon id="script.module.tulip" name="Tulip Routine Libraries" version="2.0.24" provider-name="Twilight0">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>
